@@ -1,5 +1,5 @@
 {% set name = "isofit" %}
-{% set version = "4.1.2" %}
+{% set version = "4.1.3" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/isofit-{{ version }}.tar.gz
-  sha256: 9a8659291b971696313325462f149e91e124b97984976b874234d2d49b8505e8
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/isofit-{{ version }}.tar.gz
+  sha256: 10d71b6d045f8b72f7fb26e4d05eb16244b8142e0970fa6d895fb145886e42ab
 
 build:
   noarch: python
